@@ -15,9 +15,13 @@ const styles = {
   paragraph: "font-bold text-black text-[32px] leading-[35px]",
   paragraph2: "font-bold text-black text-[24px] leading-[35px]",
   paragraph3: "font-normal text-black text-[24px] leading-[35px]",
+  paragraph4: "font-extrabold text-black text-[32px] leading-[35px]",
   heroHeading:
     "font-bold lg:text-[32px] md:text-[32px] sm:text-[24px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-black",
-  boxmenu: "w-full h-full  drop-shadow-lg rounded-md bg-custom",
+  boxmenu:
+    "w-full h-full p-5 drop-shadow-lg rounded-md bg-custom relative z-1 block",
+  boxplan:
+    "p-16 drop-shadow-lg rounded-lg bg-custom2 z-1 block",
 };
 
 export default styles;

@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundColor: {
         custom: "#EDE0D4",
+        custom2: "#F9F2E8",
       },
       transitionTimingFunction: {
         "out-flex": "cubic-bezier(0.05, 0.6, 0.4, 0.9)",
