@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
 const World = () => (
-  <section className={`${styles.xPaddings} h-full py-20 relative`}>
+  <section className={`${styles.xPaddings} h-full py-10 relative`}>
     <motion.div
       class="grid grid-cols-3 gap-5 place-content-stretch"
       initial="hidden"
@@ -20,12 +20,30 @@ const World = () => (
         </div>
         <div className={`${styles.paragraph3} pb-10`}>
           moment terbaik mereka
-        </div>
+        </div><br />
 
         <div className="flex items-center gap-10">
-          <div>01</div>
-          <div>02</div>
-          <div>03</div>
+          <div>
+            <img
+              src="/review.png"
+              alt="review"
+              className="w-100 h-100 object-cover relative z-1"
+            />
+          </div>
+          <div>
+            <img
+              src="/review2.png"
+              alt="review"
+              className="w-100 h-100 object-cover relative z-1"
+            />
+          </div>
+          <div>
+            <img
+              src="/review3.png"
+              alt="review"
+              className="w-100 h-100 object-cover relative z-1"
+            />
+          </div>
         </div>
       </div>
     </motion.div>

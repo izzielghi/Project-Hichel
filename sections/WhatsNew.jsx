@@ -32,7 +32,7 @@ const WhatsNew = () => (
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
-            </ul>{" "}
+            </ul>
             <br />
             <a
               href=""

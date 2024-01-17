@@ -36,6 +36,63 @@
   width: 200px;
 }
 
+.accordion-parent{
+  border-radius: 3px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  max-width: 500px;
+}
+
+.accordion .toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  fill: black;
+  color: black;
+  transition: color 0.15s ease, fill 0.15s ease;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.accordion .toggle:hover{
+  color: #6d6d6d;
+  fill: #6d6d6d;
+}
+
+.accordion:first-child .toggle{
+  border-bottom: 0;
+}
+
+.accordion .toggle .direction-indicator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.accordion .content-parent{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.15s ease-out;
+  color: black;
+  border-bottom: 1px solid #aaa;
+}
+
+.accordion.toggled .content-parent{
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
+
+.accordion .content{
+  padding: 10px 15px;
+}
+
 .hero-gradient {
   background: linear-gradient(
     97.86deg,

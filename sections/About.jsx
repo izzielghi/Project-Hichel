@@ -30,7 +30,7 @@ const About = () => (
       <img
         src="/banner.png"
         alt="banner"
-        className="w-full h-full object-cover relative z-1"
+        className="w-full h-full object-cover relative z-[0]"
       />
 
       <motion.div
